@@ -1,0 +1,8 @@
++----------------------------------------------------------------+
+Formação Html Web Developer 
+Algumas tags pode funcionar diferente para cada tipo de brower.  ***  Brower suport Html *** Pesquisar no google este termo
+
+Os padrões são definidos pela W3C.
+
+Obs: Bom lugar para estudar é com os materiais contidos no W3CScools.
+
