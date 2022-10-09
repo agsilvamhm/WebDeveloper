@@ -6,3 +6,15 @@ Os padrões são definidos pela W3C.
 
 Obs: Bom lugar para estudar é com os materiais contidos no W3CScools.
 
++------------------------------------------------------------------+
+Tags Html
+
+<i></i> = Texto em itálico 
+<strong></strong> = Texto em negrito 
+<blockquote></blockquote> Coocar uma citação
+
+<mark></mark> Dá um efeito no texto como um marcador de texto
+
+<sup></sup> tag para colocar o sobreescrito
+
+<hr/> Esta tag traça uma linha na página.
