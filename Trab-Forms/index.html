@@ -7,11 +7,29 @@
     <title>Formulário de cadastro</title>
 </head>
 <body>
-    <form name="cadastro" onsubmit="alert('Colocar uma função para checar os campos')" method="GET" action="#" >
-        Nome: <input type="text" name="name"/> <br/>
-        Idade: <input type="number" name="age"/> <br/>
-        Senha: <input type="password" name="password"/> <br/> <br/>
-        <button type="submit">Enviar</button>
+    <h2>Tipos de campos</h2>
+    <p>Segue algumas observações sobre os campos</p>
+    <p>Week - Não é implementado para todos os navegadores, a exemplo o firefox.</p>
+    <p>Hidden - Este campo fica invisível para o usuário, mas é enviado quando formulário é submetido.</p>
+    <form name="cadastro" onsubmit="alert('Colocar uma função para checar os campos, exemplo')" method="GET" action="#" >
+        <label>Text:</label><input type="text"/> <br/><br/>
+        <label>Number:</label><input type="number" min="0" max="99" step="5"/> <br/><br/>
+        <label>Botão:</label><input type="button" value="Enviar"/> <br/><br/>
+        <label>Range:</label><input type="range" min="0" max="99" value="15"/> <br/><br/>
+        <label>Color:</label><input type="color"/> <br/><br/>
+        <label>E-mail:</label><input type="email"/> <br/><br/>
+        <label>Url:</label><input type="url"/> <br/><br/>
+        <label>Date:</label><input type="date"/> <br/><br/>
+        <label>Week:</label><input type="Week"/> <br/><br/>
+        <label>checkBox:</label><input type="checkbox" name="opcional[]"/> 
+        <label>checkBox:</label><input type="checkbox" name="opcional[]"/> 
+        <label>checkBox:</label><input type="checkbox" name="opcional[]"/> <br/><br/>
+        <label>Radio:</label><input name="radio" type="Radio"/> 
+        <label>Radio:</label><input name="radio" type="Radio"/> 
+        <label>Radio:</label><input name="radio" type="Radio"/> <br/><br/>
+        <label>Hidden:</label><input type="hidden"/> <br/><br/>
+        <label>File:</label><input type="file"/>  <br/><br/>
+        <label>Search:</label><input type="search"/>  <br/><br/>
     </form>
 </body>
 </html>
